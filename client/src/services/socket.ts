@@ -1,7 +1,7 @@
 import { io, Socket } from "socket.io-client";
 import { Room, ChatMessage, SyncState } from "../types";
 
-const SOCKET_URL = "http://localhost:5000";
+const SOCKET_URL = "https://youtube-watch-party-system.onrender.com";
 
 class SocketService {
   private socket: Socket;
@@ -167,3 +167,4 @@ class SocketService {
 // Export singleton instance
 export const socketService = new SocketService();
 export default socketService;
+
