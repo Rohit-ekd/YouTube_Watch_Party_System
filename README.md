@@ -127,6 +127,14 @@ To deploy to production:
    - Build: `npm run build`
    - Deploy the `dist` folder
 
-## License
+## Screen Shorts
+Sign up
+<img width="784" height="870" alt="image" src="https://github.com/user-attachments/assets/ab538766-28eb-4eb6-8729-3ae60500b822" />
+Sign in
+<img width="696" height="726" alt="image" src="https://github.com/user-attachments/assets/6b85600c-430d-4b76-be28-c140dc087295" />
+Dashboard Page
+<img width="1472" height="825" alt="image" src="https://github.com/user-attachments/assets/2449c0a2-35b7-4290-b7d2-6a7ab8fae062" />
+Create Room
+<img width="1805" height="881" alt="image" src="https://github.com/user-attachments/assets/9f102c84-22e4-4435-9b98-62f01a2001f1" />
 
-MIT
+
