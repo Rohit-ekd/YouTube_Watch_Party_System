@@ -1,7 +1,12 @@
 import { io, Socket } from "socket.io-client";
 import { Room, ChatMessage, SyncState } from "../types";
 
-const SOCKET_URL = "https://youtube-watch-party-system.onrender.com";
+// const SOCKET_URL = "https://youtube-watch-party-system.onrender.com";
+const SOCKET_URL = import.meta.env.VITE_SERVER_URL;
+
+if (!SOCKET_URL) {
+  throw new Error("VITE_SERVER_URL is not defined");
+}
 
 class SocketService {
   private socket: Socket;
@@ -167,4 +172,5 @@ class SocketService {
 // Export singleton instance
 export const socketService = new SocketService();
 export default socketService;
+
 
